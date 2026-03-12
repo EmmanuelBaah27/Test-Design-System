@@ -63,12 +63,12 @@ const buttonVariants = cva(
       {
         size: "default",
         iconPosition: "left",
-        className: "pl-md pr-xl gap-sm",
+        className: "pl-md pr-xl gap-md",
       },
       {
         size: "default",
         iconPosition: "right",
-        className: "pl-xl pr-md gap-sm",
+        className: "pl-xl pr-md gap-md",
       },
       {
         size: "default",
