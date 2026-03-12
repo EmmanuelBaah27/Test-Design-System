@@ -16,34 +16,34 @@ const buttonVariants = cva(
       variant: {
         primary: [
           "bg-primary-500 text-neutral-black",
-          "hover:bg-primary-400 focus:bg-primary-400",
+          "hover:bg-primary-400 focus-visible:bg-primary-400",
           "disabled:bg-neutral-200 disabled:text-neutral-400",
         ],
         secondary: [
           "bg-neutral-white text-neutral-black border border-neutral-300",
-          "hover:bg-neutral-50 hover:border-neutral-300 focus:bg-neutral-50 focus:ring-neutral-400",
+          "hover:bg-neutral-50 hover:border-neutral-300 focus-visible:bg-neutral-50 focus-visible:ring-neutral-400",
           "disabled:bg-neutral-white disabled:border-neutral-200 disabled:text-neutral-400",
         ],
         tertiary: [
           "bg-transparent text-neutral-black",
-          "hover:bg-neutral-100 focus:bg-neutral-100",
+          "hover:bg-neutral-100 focus-visible:bg-neutral-100",
           "disabled:text-neutral-400",
         ],
         destructive: [
           "bg-negative-500 text-neutral-white",
-          "hover:bg-negative-600 focus:bg-negative-600 focus:ring-neutral-400",
+          "hover:bg-negative-600 focus-visible:bg-negative-600 focus-visible:ring-neutral-400",
           "disabled:bg-neutral-200 disabled:text-neutral-400",
         ],
         "secondary-destructive": [
           "bg-neutral-white text-negative-500 border border-negative-300",
           "hover:bg-negative-100 hover:text-negative-600 hover:border-negative-300",
-          "focus:bg-negative-50 focus:text-negative-600 focus:ring-neutral-400",
+          "focus-visible:bg-negative-50 focus-visible:text-negative-600 focus-visible:ring-neutral-400",
           "disabled:bg-neutral-white disabled:border-neutral-200 disabled:text-neutral-400",
         ],
         "tertiary-destructive": [
           "bg-transparent text-negative-500",
           "hover:bg-negative-100 hover:text-negative-600",
-          "focus:bg-transparent focus:text-negative-600 focus:ring-neutral-400",
+          "focus-visible:bg-transparent focus-visible:text-negative-600 focus-visible:ring-neutral-400",
           "disabled:text-neutral-400",
         ],
       },
